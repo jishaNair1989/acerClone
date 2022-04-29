@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+ 
+
+
+}
+.header{
+    display: flex;
+    border-bottom: 1px solid #e3dede;
+    justify-content: space-between;
+}
+.head-left{
+    display: flex;  
+    fill:#777879;
+    align-items: center;
+ 
+}
+.head-left:hover{
+    fill:black;
+  
+}
+#predlogo svg{
+    height: 30px;
+   padding: 5px;
+    display: flex;
+    border-right:1px solid #e3dede;
+
+    
+}
+#conceptlogo svg{
+    height: 30px;
+    display: flex;
+    padding: 5px;
+    float: left;
+    border-right:1px solid #e3dede;
+}
+#planetlogo svg{
+    height: 30px;
+    display: flex;
+    padding: 5px;
+    float: left;
+    color:#777879;
+}
+.head-right{
+    display: flex;
+    align-items: center;
+    color: #918f8f;
+
+}
+.head-right p{
+    padding: 10px ;
+    font-size:13px;
+    cursor: pointer;
+}
+
+.flag{
+    display: flex; 
+    align-items: center; 
+}
+.acerlogo img{
+    padding-left: 50px;
+    display: flex;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.mid{
+    display: flex;
+    align-items: center;
+  
+
+}
+.mid p{
+    display: flex;
+    cursor: pointer;
+    font-size:13px;
+    padding: 10px;
+    color: #918f8f;
+    border-right: 1px solid #c5c5c5;
+}
+.searchbar{
+    padding: 10px;
+    cursor: pointer;
+}
+.banner1 img{
+    width: 100%;
+    background-size: cover;
+    cursor: pointer;
+}
+.banner12{
+    background-image: url(IMAGES/banner12.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    padding-top: 50px;
+    align-items: center;
+    margin-top: -10px;
+}
+.banner12 button{
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 4px;
+ }
+ .banner12 button:hover{
+    color: white;
+    background-color: black;
+ }
+.banner2 
+{
+    background-image: url(IMAGES/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    cursor: pointer;
+    margin-top: -5px;
+
+}
+.banner2 h2{
+    font-size: 45px;
+   margin: 16px;
+}
+.banner2 p{
+    font-size: 20px;
+   padding: 25px;
+}
+.banner2 button{
+    background: transparent;
+    border: 2px solid white;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.banner2 button:hover{
+    color: black;
+    background-color: white;
+}
+
+.banner3 
+{
+    background-image: url(IMAGES/banner3.jpg);
+    background-position: center;
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   
+
+    align-items: center;
+    color:black;
+
+    cursor: pointer;
+    margin-top: -5px;
+
+}
+.banner3 h2{
+    font-size: 45px;
+   margin: 16px;
+ 
+}
+.banner3 p{
+    font-size: 20px;
+   padding: 25px;
+   text-align: justify;
+   text-indent: 10px;
+}
+.banner3 button{
+    background: transparent;
+    border: 2px solid black;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.banner3 button:hover{
+    color: white;
+    background-color: black;
+ 
+}
+.nav2{
+    width: 100%;
+    background-size: cover;
+    background-color:#f5ebeb;
+    display: flex;
+}
+
+.img1{
+    display: flex; 
+    
+}
+.lap{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px 0;
+    width: 25%;
+    cursor: pointer;
+}
+.lap img{ 
+    max-width: 100% ;
+}
+.pBtn{
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        display: inline-block;
+        font-weight: 700;
+        padding: 0.05rem 0.40rem;
+        text-align: center;
+        text-transform: uppercase;
+        vertical-align: middle;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+}
+.bannerdown1{
+    display: flex;
+    
+}
+.bannerdown1 h2{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bolder;
+    color: white;
+    padding: 120px;
+    overflow: hidden;
+
+}
+.block{
+    display: flex;
+    width: 25%;
+    max-width: 25%;
+    height: 200px ;
+}
+.windows{
+    background-image: url(IMAGES/win1.jpg);
+    background-size: cover;
+    
+}
+
+.acer{
+    background-image: url(IMAGES/win2.jpg);
+    background-size: cover;
+}
+.intel{
+    background-image: url(IMAGES/win3.jpg);
+    background-size: cover;
+
+}
+.rainbow{
+    background-image: url(IMAGES/win4.jpg);
+    background-size: cover;
+}
+.listContent{
+    display: flex;
+    justify-content:space-between;
+    padding: 75px 300px;
+   color:darkgrey;
+   font-size:15px;
+   background-color: #5c5a5a;
+   cursor: pointer;
+   height: 250px;
+}
+.listContent  h3{
+    display: flex;
+    color: white;
+    font-size: 12px;
+}
+.listContent  li:hover{
+    color:white; 
+}
+.listContent  li{
+    list-style: none;
+    font-size: 11px;
+  
+}
+
+.footer1{
+  width: 100%;
+    height: 85px;
+    background-color:rgb(39, 37, 37) ;
+    display: flex;
+    justify-content: center;
+    border-bottom: .5px solid rgb(75, 74, 74);
+    
+}
+.logo1 svg{
+    width:120px;
+    height:50px;
+    display: flex;
+    color:darkgrey;
+    padding: 25px 25px;
+    fill: darkgrey;
+    cursor:pointer;
+}
+.logo2 svg{
+    width:120px;
+    height:50px;
+    display: flex;
+    color:darkgrey;
+    padding:25px 25px;
+    fill: darkgrey;
+    cursor:pointer;
+}
+.logo3 svg{
+    width:120px;
+    height:50px;
+    display: flex;
+    color:darkgrey;
+    padding: 25px 25px;
+    fill: darkgrey;
+    cursor:pointer;
+}
+.logo4 svg{
+    width:120px;
+    height:50px;
+    display: flex;
+    color:darkgrey;
+    padding: 25px 25px;
+    fill: darkgrey;
+    cursor:pointer;
+}
+.footer2{
+
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    width: auto;
+    height: 200px;
+   
+}
+.foot-left{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.foot-left img{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.copy{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(167, 165, 165);
+    justify-content: space-between;
+    padding-left: 100px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+}
+.last{
+    display: flex;
+    padding-left: 77px;
+    cursor: pointer;
+}
+
+    
